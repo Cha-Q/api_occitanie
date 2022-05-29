@@ -1,0 +1,78 @@
+* {
+    background-color: aliceblue;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, 'Helvetica Neue', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2 {
+    font-size: 1.4em;
+    color: antiquewhite;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+header,
+h1,
+h2,
+#header {
+    background-color: rgb(112, 28, 28);
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+header {
+    margin: 0;
+    height: 200px;
+    padding-top: 40px;
+}
+
+div {
+    margin-top: 40px;
+    border: 1px solid black;
+    width: 90%;
+    margin: 20px auto;
+    padding: 20px 10px;
+    border-radius: 6px;
+}
+
+div * {
+    background-color: aliceblue;
+}
+
+nav {
+    text-align: center;
+    margin-top: 5px;
+}
+
+nav select,
+option {
+    width: 300px;
+    background-color: aliceblue;
+    height: 30px;
+    border-radius: 6px;
+}
+
+nav button {
+    height: 30px;
+    width: 60px;
+    border-radius: 6px;
+    background-color: aliceblue;
+    font-weight: bold;
+}
+
+iframe {
+    display: block;
+    width: 80%;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
